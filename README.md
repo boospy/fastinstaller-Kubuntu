@@ -111,7 +111,7 @@ chmod +x fastinstaller-kubuntu-resolute.sh
 
 ### Install from Codeberg:
 ~~~
-wget https://git.osit.cc/public-projects/fastinstaller-ubuntu/-/raw/master/fastinstaller-kubuntu-resolute.sh
+wget https://codeberg.org/boospy/Fastinstaller-Kubuntu/raw/branch/master/fastinstaller-kubuntu-resolute.sh
 chmod +x fastinstaller-kubuntu-resolute.sh
 ./fastinstaller-kubuntu-resolute.sh
 ~~~

@@ -33,6 +33,8 @@ cd /tmp
 #rm google-chrome-stable_current_amd64.deb
 
 # Brave Secure Browser
+# Recommended hardened Brave configuration: https://github.com/boospy/Privacy-Browser-Project
+# Empfehlung gerhärtete Brave Konfiguration: https://codeberg.org/boospy/Privacy-Browser-Project
 curl -fsS https://dl.brave.com/install.sh | sh
 
 ubuntu-drivers install
@@ -82,7 +84,7 @@ systemctl restart avahi-daemon.service
 # ------------------------------------------------------
 
 # CD/DVD Brenner/Burner?
-# apt install k3b k3b-extrathemes
+# apt install k3b k3b-extrathemes -y
 
 # Wenn du einen Epson Drucker/Scanner betreibst, dann kannst du die Treiberpakete und Software von hier installieren
 # If you have an epson printer/scanner, then you can install drivers and software here
@@ -159,7 +161,7 @@ apt install kdegames supertux supertuxkart -y
 # Install Microsoft Teams via deb package
 #wget -qO /etc/apt/keyrings/teams-for-linux.asc https://repo.teamsforlinux.de/teams-for-linux.asc
 #sh -c 'echo "Types: deb\nURIs: https://repo.teamsforlinux.de/debian/\nSuites: stable\nComponents: main\nSigned-By: /etc/apt/keyrings/teams-for-linux.asc\nArchitectures: amd64" | tee /etc/apt/sources.list.d/teams-for-linux-packages.sources'
-#apt update && apt install teams-for-linux
+#apt update && apt install teams-for-linux -y
 
 
 # UCS Univention Domänenanbindung
@@ -176,5 +178,5 @@ apt install kdegames supertux supertuxkart -y
 #snap install dbeaver-ce --classic
 
 
-apt remove apport timidity minidlna krdc konversation neochat -y
+apt remove apport apport-kde konversation neochat --purge -y
 apt autoremove --purge -y

@@ -41,7 +41,7 @@ ubuntu-drivers install
 
 # Standard packages
 echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | debconf-set-selections
-apt install tesseract-ocr-frk strawberry kdf dolphin-nextcloud nfs-common aspell-de hunspell-de-at kleopatra gnome-icon-theme showfoto kde-config-cron filelight kcolorchooser kronometer kfind unp kubuntu-restricted-extras kubuntu-restricted-addons avahi-utils tellico usb-creator-kde manpages-de cifs-utils samba speedtest-cli lm-sensors nvme-cli kdenetwork-filesharing digikam safeeyes qtqr -y
+apt install tesseract-ocr-frk strawberry kdf dolphin-nextcloud nfs-common aspell-de hunspell-de-at kleopatra gnome-icon-theme showfoto filelight kcolorchooser kronometer kfind unp kubuntu-restricted-extras kubuntu-restricted-addons avahi-utils tellico usb-creator-kde manpages-de cifs-utils samba speedtest-cli lm-sensors nvme-cli kdenetwork-filesharing digikam safeeyes qtqr -y
 snap install bitwarden freetube
 snap remove firefox
 
@@ -133,7 +133,7 @@ apt install onlyoffice-desktopeditors -y
 #apt install libreoffice-templates -y
 
 # Extra packages
-#apt install librecad tree git audacity -y
+#apt install librecad tree synaptic audacity -y
 
 # Profi Fotobearbeitung
 # Professional photo editing

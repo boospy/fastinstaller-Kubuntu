@@ -34,7 +34,6 @@ The script installs after the standard installation of Kubuntu, selected applica
   * neochat
   
 ### The following packages will be installed on Kubuntu
-[fastinstaller-kubuntu-noble.sh](https://github.com/boospy/fastinstaller-ubuntu/blob/master/fastinstaller-kubuntu-noble.sh)
 
 <img src="https://raw.githubusercontent.com/boospy/fastinstaller-ubuntu/master/kubuntu-installer.png" width="" height="100">
 
@@ -80,7 +79,7 @@ The script installs after the standard installation of Kubuntu, selected applica
   * supertux
   * supertuxkart
   
-# And you can choose from the following options in the script
+### And you can choose from the following options in the script
 
   * Install Google Chrome
   * choose Libreoffice instead of Onlyoffice

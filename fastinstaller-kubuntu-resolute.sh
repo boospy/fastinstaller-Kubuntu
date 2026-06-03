@@ -42,6 +42,7 @@ ubuntu-drivers install
 # Standard packages
 echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | debconf-set-selections
 apt install tesseract-ocr-frk strawberry kdf dolphin-nextcloud nfs-common aspell-de hunspell-de-at kleopatra gnome-icon-theme showfoto filelight kcolorchooser kronometer kfind unp kubuntu-restricted-extras kubuntu-restricted-addons avahi-utils tellico usb-creator-kde manpages-de cifs-utils samba speedtest-cli lm-sensors nvme-cli kdenetwork-filesharing digikam safeeyes qtqr -y
+apt install snapd -y
 snap install bitwarden freetube
 snap remove firefox
 
@@ -115,6 +116,7 @@ gpg --no-default-keyring --keyring gnupg-ring:/tmp/onlyoffice.gpg --keyserver hk
 chmod 644 /tmp/onlyoffice.gpg
 chown root:root /tmp/onlyoffice.gpg
 mv /tmp/onlyoffice.gpg /usr/share/keyrings/onlyoffice.gpg
+chmod 644 /usr/share/keyrings/onlyoffice.gpg
 
 tee /etc/apt/sources.list.d/onlyoffice.sources << 'EOF'
 Types: deb

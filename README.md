@@ -9,13 +9,16 @@ Fastinstaller-Kubuntu 26.04 Resolute
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/L3L813B3CV)
 
-The script installs after the standard installation of Kubuntu, selected application to it, and configures the system for an optimal operability. You can change everything in this script as you like. If you don't want to have something, then comment out the relevant area with "#". Or if you want to activate something, remove the "#" from that area.
+
+> 💡**Attention!** Dieses Skript richtet sich an fortgeschrittene Nutzer und lässt sich in hohem Maße anpassen. Du kannst das Script nach einer Kubuntu Standard oder Minimal Installation ausführen, um viele weitere Schritte zu automatisieren. Es installiert nach der Installation ausgewählte Anwendungen und konfiguriert einige kleine Optimierungen. Du kannst in diesem Skript alles nach Belieben ändern. Wenn du etwas nicht haben möchtest, kommentiere den entsprechenden Abschnitt mit „#“ aus. Wenn du etwas aktivieren möchtest, entferne das „#“ aus diesem Abschnitt.
+
+> 💡**Attention!** This script is for advanced users and is highly customizable. You can run the script after a Kubuntu Default or minimal installation to automate some further steps. After installation, it installs selected applications and configures a few minor optimizations. You can customize everything in this script as you like. If there’s something you don’t want, comment out the corresponding section with a “#”. If you want to enable something, remove the “#” from that section.
 
 # What does it exactly do at default with no changes of the script?
 
-  * Add ITEAS Community repository https://apt.iteas.at
-  * Add brave-browser repository and install the brave-browser for more security  (except Kubuntu for searching bookmarks)
-  * Install all ca-certifactes from iteas-community
+  * Add ITEAS Community repository. Please take a look at the list of available packages: https://apt.iteas.at
+  * Add brave-browser repository and install the brave-browser for more security
+  * Install all ca-certifactes and rustdesk from iteas-community
   * Update the whole system
   * Install thirdpartdrivers with ubuntu-drivers
   * Adjusting the much too low values in sysctl
